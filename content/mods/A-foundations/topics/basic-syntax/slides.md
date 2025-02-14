@@ -445,7 +445,7 @@ no value members has no instances, just as with unit.
 
 - Statements are instructions that perform some action and do not return a value
 - A definition of any kind (function definition etc.)
-- The `let var = expr;` statement
+- The `let var = expr;` is a statement
 - Almost everything else is an expression
 
 ## Example statements
@@ -502,6 +502,10 @@ fn main() {
     println!("{}", y); // 4
 }
 ```
+
+<!--
+- loops can "return" a value through "break <value>"
+-->
 
 ---
 
