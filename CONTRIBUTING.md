@@ -45,3 +45,13 @@ cd content/mods/A-foundations/topics/basic-syntax/
 ln -s ../../../../../modmod/include/slides/node_modules .
 slidev  slides.md  -t teach-rs
 ```
+
+Notes:
+
+Disable autoformatting of markdown files in your user `settings.json`, since this breaks some layout aspects (e.g. problems with `layout: two-cols`, because an empty line is inserted above):
+
+```json
+  "[markdown]": {
+    "editor.formatOnSave": false
+  },
+```

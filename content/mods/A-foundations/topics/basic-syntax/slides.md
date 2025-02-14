@@ -99,7 +99,6 @@ fn main() {
 - We can be explicit in our types (and sometimes have to be)
 
 ---
-
 layout: two-cols
 ---
 
@@ -297,7 +296,6 @@ instead.
 -->
 
 ---
-
 layout: three-slots
 ---
 
