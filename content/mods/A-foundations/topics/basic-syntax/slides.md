@@ -284,7 +284,7 @@ instead.
 - Unlike C/C++: *Not null-terminated*
 - Cannot be indexed like C strings
 - `String` is heap-allocated
-- Actually many types of strings in Rust
+- Actually many types of strings in Rust exist
   - `CString`
   - `PathBuf`
   - `OsString`
