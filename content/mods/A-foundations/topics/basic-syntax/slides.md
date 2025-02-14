@@ -1,4 +1,3 @@
-
 ---
 layout: section
 ---
@@ -100,6 +99,7 @@ fn main() {
 - We can be explicit in our types (and sometimes have to be)
 
 ---
+
 layout: two-cols
 ---
 
@@ -197,6 +197,7 @@ fn main() {
 
 <!--
 - Rust has your typical operations, just as with other C-like languages
+- there are special functions to trigger different behavior: saturating add, overflow add, etc. (`let x : u8 = 250u8.saturating_add(100);`), see [u8 ref](https://doc.rust-lang.org/std/primitive.u8.html#method.saturating_add)
 -->
 
 ---
@@ -272,6 +273,7 @@ instead.
 ---
 
 # `String`s
+
 ```rust
     
     let s1 = String::from("Hello, 🌍!");
@@ -283,10 +285,10 @@ instead.
 - Cannot be indexed like C strings
 - `String` is heap-allocated
 - Actually many types of strings in Rust
-    - `CString`
-    - `PathBuf`
-    - `OsString`
-    - ...
+  - `CString`
+  - `PathBuf`
+  - `OsString`
+  - ...
 
 <!--
 - Rusts strings are complicated, because all strings are complicated
@@ -295,8 +297,10 @@ instead.
 -->
 
 ---
+
 layout: three-slots
 ---
+
 # Tuples
 
 ::left::
@@ -440,12 +444,14 @@ no value members has no instances, just as with unit.
 ---
 
 # Statements
+
 - Statements are instructions that perform some action and do not return a value
 - A definition of any kind (function definition etc.)
 - The `let var = expr;` statement
 - Almost everything else is an expression
 
 ## Example statements
+
 ```rust
 fn my_fun() {
     println!("{}", 5);
