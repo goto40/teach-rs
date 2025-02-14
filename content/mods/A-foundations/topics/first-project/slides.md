@@ -1,4 +1,3 @@
-
 ---
 layout: cover
 ---
@@ -84,4 +83,7 @@ this case
 - `if-else` is without parenthesis for the expression, but with required braces
 for the blocks
 - no explicit return keyword (will get back to that)
+
+Difference to C/C++
+- no declaration is required prior to main to use fib (defined after main).
 -->
