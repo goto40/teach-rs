@@ -1,1 +1,4 @@
 target/
+modmod/include/slides/node_modules/
+modmod/include/slides/package-lock.json
+node_modules
